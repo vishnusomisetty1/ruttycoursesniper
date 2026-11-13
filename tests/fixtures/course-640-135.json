@@ -1,0 +1,485 @@
+[
+  {
+    "campusLocations": [
+      {
+        "code": "1",
+        "description": "College Avenue"
+      },
+      {
+        "code": "2",
+        "description": "Busch"
+      },
+      {
+        "code": "3",
+        "description": "Livingston"
+      },
+      {
+        "code": "4",
+        "description": "Cook/Douglass"
+      }
+    ],
+    "subject": "640",
+    "openSections": 28,
+    "synopsisUrl": "https://math.rutgers.edu/academics/undergraduate/courses",
+    "title": "CALC I LIFE&SOC SCI",
+    "preReqNotes": "((21:640:113 COLLEGE ALGEBRA  and 21:640:114 PRECALCULUS ) or (01:640:112 PRECALCULUS PART II ))<em> OR </em> ((50:640:113 MATH FOR BUSINESS  and 50:640:114 ) or (01:640:115 PRECALCULUS COLLEGE MATHEMATICS ))",
+    "courseString": "01:640:135",
+    "school": {
+      "code": "01",
+      "description": "School of Arts and Sciences"
+    },
+    "credits": 4,
+    "subjectDescription": "Mathematics",
+    "coreCodes": [
+      {
+        "id": "2026901640135  23",
+        "year": "2026",
+        "term": "9",
+        "description": "Quantitative Information",
+        "course": "135",
+        "subject": "640",
+        "code": "QQ",
+        "unit": "01",
+        "offeringUnitCode": "01",
+        "offeringUnitCampus": "NB",
+        "lastUpdated": 1468423785000,
+        "supplement": "  ",
+        "effective": "20269",
+        "coreCodeReferenceId": "23",
+        "coreCode": "QQ",
+        "coreCodeDescription": "Quantitative Information"
+      },
+      {
+        "id": "2026901640135  24",
+        "year": "2026",
+        "term": "9",
+        "description": "Mathematical or Formal Reasoning",
+        "course": "135",
+        "subject": "640",
+        "code": "QR",
+        "unit": "01",
+        "offeringUnitCode": "01",
+        "offeringUnitCampus": "NB",
+        "lastUpdated": 1468423795000,
+        "supplement": "  ",
+        "effective": "20269",
+        "coreCodeReferenceId": "24",
+        "coreCode": "QR",
+        "coreCodeDescription": "Mathematical or Formal Reasoning"
+      }
+    ],
+    "expandedTitle": "CALCULUS I FOR THE LIFE AND SOCIAL SCIENCES",
+    "courseFeeDescr": "",
+    "mainCampus": "NB",
+    "subjectNotes": "MATHEMATICS INSTRUCTORS CANNOT ISSUE SPECIAL PERMISSION TO ENTER CLOSED COURSES. REQUESTS FOR SPECIAL PERMISSION MUST BE MADE BY APPLICATION TO THE MATHEMATICS DEPARTMENT.",
+    "courseNumber": "135",
+    "creditsObject": {
+      "code": "4_0",
+      "description": "4.0 credits"
+    },
+    "level": "U",
+    "campusCode": "NB",
+    "subjectGroupNotes": "",
+    "offeringUnitCode": "01",
+    "offeringUnitTitle": null,
+    "courseDescription": "",
+    "sections": [
+      {
+        "sectionEligibility": "",
+        "sessionDatePrintIndicator": "N",
+        "examCode": "F",
+        "specialPermissionAddCode": null,
+        "crossListedSections": [],
+        "sectionNotes": "",
+        "specialPermissionDropCode": null,
+        "crossListedSectionType": "0",
+        "instructors": [
+          {
+            "name": "BANERJEE"
+          },
+          {
+            "name": "YEUNG, MARC"
+          }
+        ],
+        "number": "01",
+        "finalExam": null,
+        "majors": [],
+        "openToText": "",
+        "openStatusText": "OPEN",
+        "sessionDates": null,
+        "specialPermissionDropCodeDescription": null,
+        "subtopic": "",
+        "openStatus": true,
+        "comments": [],
+        "instructorsText": "BANERJEE; YEUNG, MARC",
+        "minors": [],
+        "examCodeText": "Math",
+        "campusCode": "NB",
+        "sectionCampusLocations": [
+          {
+            "code": "1",
+            "description": "College Avenue"
+          }
+        ],
+        "index": "12845",
+        "unitMajors": [],
+        "printed": "Y",
+        "specialPermissionAddCodeDescription": null,
+        "commentsText": "",
+        "subtitle": "",
+        "crossListedSectionsText": "",
+        "sectionCourseType": "T",
+        "meetingTimes": [
+          {
+            "campusLocation": "1",
+            "roomNumber": "1180",
+            "campusAbbrev": "CAC",
+            "campusName": "COLLEGE AVENUE",
+            "startTimeMilitary": "0830",
+            "buildingCode": "ABE",
+            "meetingModeDesc": "LEC",
+            "endTimeMilitary": "0950",
+            "meetingModeCode": "02",
+            "baClassHours": "",
+            "pmCode": "A",
+            "meetingDay": "M",
+            "startTime": "0830",
+            "endTime": "0950"
+          },
+          {
+            "campusLocation": "1",
+            "roomNumber": "1180",
+            "campusAbbrev": "CAC",
+            "campusName": "COLLEGE AVENUE",
+            "startTimeMilitary": "0830",
+            "buildingCode": "ABE",
+            "meetingModeDesc": "LEC",
+            "endTimeMilitary": "0950",
+            "meetingModeCode": "02",
+            "baClassHours": "",
+            "pmCode": "A",
+            "meetingDay": "H",
+            "startTime": "0830",
+            "endTime": "0950"
+          },
+          {
+            "campusLocation": "1",
+            "roomNumber": "103",
+            "campusAbbrev": "CAC",
+            "campusName": "COLLEGE AVENUE",
+            "startTimeMilitary": "0830",
+            "buildingCode": "SC",
+            "meetingModeDesc": "RECIT",
+            "endTimeMilitary": "0950",
+            "meetingModeCode": "03",
+            "baClassHours": "",
+            "pmCode": "A",
+            "meetingDay": "F",
+            "startTime": "0830",
+            "endTime": "0950"
+          }
+        ],
+        "legendKey": null,
+        "honorPrograms": []
+      },
+      {
+        "sectionEligibility": "",
+        "sessionDatePrintIndicator": "N",
+        "examCode": "F",
+        "specialPermissionAddCode": null,
+        "crossListedSections": [],
+        "sectionNotes": "",
+        "specialPermissionDropCode": null,
+        "crossListedSectionType": "0",
+        "instructors": [
+          {
+            "name": "BANERJEE"
+          },
+          {
+            "name": "YEUNG, MARC"
+          }
+        ],
+        "number": "02",
+        "finalExam": null,
+        "majors": [],
+        "openToText": "",
+        "openStatusText": "OPEN",
+        "sessionDates": null,
+        "specialPermissionDropCodeDescription": null,
+        "subtopic": "",
+        "openStatus": true,
+        "comments": [],
+        "instructorsText": "BANERJEE; YEUNG, MARC",
+        "minors": [],
+        "examCodeText": "Math",
+        "campusCode": "NB",
+        "sectionCampusLocations": [
+          {
+            "code": "1",
+            "description": "College Avenue"
+          }
+        ],
+        "index": "12846",
+        "unitMajors": [],
+        "printed": "Y",
+        "specialPermissionAddCodeDescription": null,
+        "commentsText": "",
+        "subtitle": "",
+        "crossListedSectionsText": "",
+        "sectionCourseType": "T",
+        "meetingTimes": [
+          {
+            "campusLocation": "1",
+            "roomNumber": "1180",
+            "campusAbbrev": "CAC",
+            "campusName": "COLLEGE AVENUE",
+            "startTimeMilitary": "0830",
+            "buildingCode": "ABE",
+            "meetingModeDesc": "LEC",
+            "endTimeMilitary": "0950",
+            "meetingModeCode": "02",
+            "baClassHours": "",
+            "pmCode": "A",
+            "meetingDay": "M",
+            "startTime": "0830",
+            "endTime": "0950"
+          },
+          {
+            "campusLocation": "1",
+            "roomNumber": "1180",
+            "campusAbbrev": "CAC",
+            "campusName": "COLLEGE AVENUE",
+            "startTimeMilitary": "0830",
+            "buildingCode": "ABE",
+            "meetingModeDesc": "LEC",
+            "endTimeMilitary": "0950",
+            "meetingModeCode": "02",
+            "baClassHours": "",
+            "pmCode": "A",
+            "meetingDay": "H",
+            "startTime": "0830",
+            "endTime": "0950"
+          },
+          {
+            "campusLocation": "1",
+            "roomNumber": "103",
+            "campusAbbrev": "CAC",
+            "campusName": "COLLEGE AVENUE",
+            "startTimeMilitary": "1020",
+            "buildingCode": "SC",
+            "meetingModeDesc": "RECIT",
+            "endTimeMilitary": "1140",
+            "meetingModeCode": "03",
+            "baClassHours": "",
+            "pmCode": "A",
+            "meetingDay": "F",
+            "startTime": "1020",
+            "endTime": "1140"
+          }
+        ],
+        "legendKey": null,
+        "honorPrograms": []
+      },
+      {
+        "sectionEligibility": "",
+        "sessionDatePrintIndicator": "N",
+        "examCode": "F",
+        "specialPermissionAddCode": null,
+        "crossListedSections": [],
+        "sectionNotes": "",
+        "specialPermissionDropCode": null,
+        "crossListedSectionType": "0",
+        "instructors": [
+          {
+            "name": "YEUNG, MARC"
+          },
+          {
+            "name": "BANERJEE"
+          }
+        ],
+        "number": "03",
+        "finalExam": null,
+        "majors": [],
+        "openToText": "",
+        "openStatusText": "OPEN",
+        "sessionDates": null,
+        "specialPermissionDropCodeDescription": null,
+        "subtopic": "",
+        "openStatus": true,
+        "comments": [],
+        "instructorsText": "BANERJEE; YEUNG, MARC",
+        "minors": [],
+        "examCodeText": "Math",
+        "campusCode": "NB",
+        "sectionCampusLocations": [
+          {
+            "code": "1",
+            "description": "College Avenue"
+          }
+        ],
+        "index": "12847",
+        "unitMajors": [],
+        "printed": "Y",
+        "specialPermissionAddCodeDescription": null,
+        "commentsText": "",
+        "subtitle": "",
+        "crossListedSectionsText": "",
+        "sectionCourseType": "T",
+        "meetingTimes": [
+          {
+            "campusLocation": "1",
+            "roomNumber": "1180",
+            "campusAbbrev": "CAC",
+            "campusName": "COLLEGE AVENUE",
+            "startTimeMilitary": "0830",
+            "buildingCode": "ABE",
+            "meetingModeDesc": "LEC",
+            "endTimeMilitary": "0950",
+            "meetingModeCode": "02",
+            "baClassHours": "",
+            "pmCode": "A",
+            "meetingDay": "M",
+            "startTime": "0830",
+            "endTime": "0950"
+          },
+          {
+            "campusLocation": "1",
+            "roomNumber": "1180",
+            "campusAbbrev": "CAC",
+            "campusName": "COLLEGE AVENUE",
+            "startTimeMilitary": "0830",
+            "buildingCode": "ABE",
+            "meetingModeDesc": "LEC",
+            "endTimeMilitary": "0950",
+            "meetingModeCode": "02",
+            "baClassHours": "",
+            "pmCode": "A",
+            "meetingDay": "H",
+            "startTime": "0830",
+            "endTime": "0950"
+          },
+          {
+            "campusLocation": "1",
+            "roomNumber": "103",
+            "campusAbbrev": "CAC",
+            "campusName": "COLLEGE AVENUE",
+            "startTimeMilitary": "1210",
+            "buildingCode": "SC",
+            "meetingModeDesc": "RECIT",
+            "endTimeMilitary": "1330",
+            "meetingModeCode": "03",
+            "baClassHours": "",
+            "pmCode": "P",
+            "meetingDay": "F",
+            "startTime": "1210",
+            "endTime": "0130"
+          }
+        ],
+        "legendKey": null,
+        "honorPrograms": []
+      },
+      {
+        "sectionEligibility": "",
+        "sessionDatePrintIndicator": "N",
+        "examCode": "F",
+        "specialPermissionAddCode": null,
+        "crossListedSections": [],
+        "sectionNotes": "",
+        "specialPermissionDropCode": null,
+        "crossListedSectionType": "0",
+        "instructors": [
+          {
+            "name": "BANERJEE"
+          },
+          {
+            "name": "ARCOLEO"
+          }
+        ],
+        "number": "04",
+        "finalExam": null,
+        "majors": [],
+        "openToText": "",
+        "openStatusText": "CLOSED",
+        "sessionDates": null,
+        "specialPermissionDropCodeDescription": null,
+        "subtopic": "",
+        "openStatus": false,
+        "comments": [],
+        "instructorsText": "BANERJEE; ARCOLEO",
+        "minors": [],
+        "examCodeText": "Math",
+        "campusCode": "NB",
+        "sectionCampusLocations": [
+          {
+            "code": "1",
+            "description": "College Avenue"
+          }
+        ],
+        "index": "12848",
+        "unitMajors": [],
+        "printed": "Y",
+        "specialPermissionAddCodeDescription": null,
+        "commentsText": "",
+        "subtitle": "",
+        "crossListedSectionsText": "",
+        "sectionCourseType": "T",
+        "meetingTimes": [
+          {
+            "campusLocation": "1",
+            "roomNumber": "1170",
+            "campusAbbrev": "CAC",
+            "campusName": "COLLEGE AVENUE",
+            "startTimeMilitary": "1020",
+            "buildingCode": "ABW",
+            "meetingModeDesc": "LEC",
+            "endTimeMilitary": "1140",
+            "meetingModeCode": "02",
+            "baClassHours": "",
+            "pmCode": "A",
+            "meetingDay": "M",
+            "startTime": "1020",
+            "endTime": "1140"
+          },
+          {
+            "campusLocation": "1",
+            "roomNumber": "1170",
+            "campusAbbrev": "CAC",
+            "campusName": "COLLEGE AVENUE",
+            "startTimeMilitary": "1020",
+            "buildingCode": "ABW",
+            "meetingModeDesc": "LEC",
+            "endTimeMilitary": "1140",
+            "meetingModeCode": "02",
+            "baClassHours": "",
+            "pmCode": "A",
+            "meetingDay": "H",
+            "startTime": "1020",
+            "endTime": "1140"
+          },
+          {
+            "campusLocation": "1",
+            "roomNumber": "102",
+            "campusAbbrev": "CAC",
+            "campusName": "COLLEGE AVENUE",
+            "startTimeMilitary": "0830",
+            "buildingCode": "SC",
+            "meetingModeDesc": "RECIT",
+            "endTimeMilitary": "0950",
+            "meetingModeCode": "03",
+            "baClassHours": "",
+            "pmCode": "A",
+            "meetingDay": "F",
+            "startTime": "0830",
+            "endTime": "0950"
+          }
+        ],
+        "legendKey": null,
+        "honorPrograms": []
+      }
+    ],
+    "supplementCode": "  ",
+    "courseFee": "0",
+    "unitNotes": "",
+    "courseNotes": "FOR ALL SECTIONS: NO CREDIT FOR MORE THAN ONE CALC I COURSE.\r\nCREDIT NOT GIVEN FOR MORE THAN ONE: 130, 135, OR 151\r\nFOR ALL SECTIONS: THIS COURSE IS NOT ACCEPTED for THE SCHOOL of ENGINEERING STUDENTS.   \r\n\r\nPLEASE GO TO THIS LINK FOR COMMON HOUR EXAMS\r\nhttps://scheduling.rutgers.edu/common-hour-exam-schedule\r\n\r\n\r\n"
+  }
+]

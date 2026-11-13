@@ -1,0 +1,63 @@
+# systemd unit for Linux (alternative to PM2).
+#
+# Install:
+#   sudo cp deploy/rutgers-sniper.service /etc/systemd/system/
+#   sudo nano /etc/systemd/system/rutgers-sniper.service   # fix User= and paths
+#   sudo systemctl daemon-reload
+#   sudo systemctl enable --now rutgers-sniper
+#
+# Useful commands:
+#   sudo systemctl status  rutgers-sniper
+#   sudo systemctl restart rutgers-sniper
+#   sudo systemctl stop    rutgers-sniper
+#   journalctl -u rutgers-sniper -f          # follow the logs
+
+[Unit]
+Description=Rutgers course-opening notifier (notification only)
+Documentation=https://classes.rutgers.edu
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+
+# CHANGE THESE to your own user and install path.
+User=CHANGE_ME
+WorkingDirectory=/home/CHANGE_ME/rutgers-course-sniper
+
+# Secrets live in .env, which is read by the app itself.
+EnvironmentFile=-/home/CHANGE_ME/rutgers-course-sniper/.env
+
+ExecStart=/usr/bin/env node_modules/.bin/tsx src/worker/main.ts
+
+# Restart forever, but back off so a Rutgers outage cannot cause a hot loop.
+Restart=always
+RestartSec=10s
+StartLimitIntervalSec=0
+
+# Graceful shutdown: the worker handles SIGTERM and finishes its cycle.
+KillSignal=SIGTERM
+TimeoutStopSec=20
+
+# This is a CPU-only workload. Keep it out of the way of GPU/model processes.
+Nice=10
+CPUWeight=50
+
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=rutgers-sniper
+
+# --- Hardening. This service needs no privileges beyond outbound HTTPS. ---
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+# The SQLite database directory must stay writable.
+ReadWritePaths=/home/CHANGE_ME/rutgers-course-sniper/data /home/CHANGE_ME/rutgers-course-sniper/logs
+ProtectKernelTunables=true
+ProtectControlGroups=true
+RestrictNamespaces=true
+RestrictSUIDSGID=true
+
+[Install]
+WantedBy=multi-user.target
